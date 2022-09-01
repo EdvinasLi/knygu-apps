@@ -1,0 +1,66 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap");
+
+.articles {
+  margin-top: 30px;
+  column-count: 3;
+}
+.deleteIcon {
+  color: blue;
+}
+.box {
+  margin-bottom: 3rem;
+  break-inside: avoid-column;
+}
+
+.box img {
+  width: 200px;
+  height: 200px;
+}
+
+.box .image {
+  margin-bottom: 1rem;
+}
+
+.box .controls {
+  display: flex;
+
+  align-items: center;
+}
+
+.box .article-link {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.author {
+  color: black;
+  text-decoration: none;
+}
+
+.backDiv {
+  background-color: rgb(245, 238, 220);
+}
+
+.searchBar {
+  width: 60%;
+  height: 50px;
+  border-radius: 20px 20px 20px 20px;
+}
+.searchBar::placeholder {
+  text-align: center;
+}
+.searchBttn {
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+  background-color: rgb(192, 216, 192);
+  font-family: "Montserrat", sans-serif;
+}
+.searchDiv {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}

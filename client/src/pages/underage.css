@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Oswald&display=swap");
+.background {
+  background-image: url("https://sd.keepcalms.com/i/you-are-not-welcome-here.png");
+  width: 1560px;
+  height: 1500px;
+  background-size: cover;
+}

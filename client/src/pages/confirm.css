@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Oswald&display=swap");
+
+.enter {
+  width: 1569px;
+  height: 1000px;
+  background-image: url("https://bluesyemre.files.wordpress.com/2018/01/a43c0340594031-578558263a350.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  background: red;
+}
+.link1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  background: rgb(48, 175, 16);
+}
+.linkConfirm {
+  display: flex;
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap");
+
+.loginBody {
+  margin: 0 auto;
+  background-color: rgb(245, 238, 220);
+  width: 90em;
+  height: 50em;
+  display: flex;
+}
+.loginForm {
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(153, 183, 235, 0.8);
+  border-radius: 10px 10px 10px 10px;
+}
+.loginFormLeft {
+  width: 60%;
+  height: 100%;
+  border-right: 2px solid black;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.loginFormRight {
+  text-align: center;
+  width: 40%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+.loginFormRight form {
+  display: flex;
+  flex-direction: column;
+}
+.loginFormRight button {
+  width: 8rem;
+  height: 2rem;
+  background-color: rgba(76, 129, 220, 0.89);
+  border-radius: 20px 20px 20px 20px;
+}
+.registerLink {
+  text-decoration: none;
+  width: 8rem;
+  height: 4rem;
+  color: black;
+  background-color: rgba(76, 129, 220, 0.89);
+  border-radius: 20px 20px 20px 20px;
+  border: 2px solid black;
+}
